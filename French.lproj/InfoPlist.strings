@@ -1,0 +1,29 @@
+﻿/* Localized versions of Info.plist keys */
+
+AMName = "Compresser les images";
+
+/*  AMApplication localized strings  */
+/*  e.g. "TextEdit" = "TextEdit";  */
+
+/*  AMCategory localized strings  */
+"Pictures" = "Images";
+
+/*  AMDefaultParameters localized values  */
+/*  e.g. myDefaultIntegerParameter = 0;  */
+/*  e.g. myDefaultStringParameter = "Default String Value";  */
+
+/*  AMDescription localized strings  */
+AMDInput = "Images de type BMP (.bmp), GIF (.gif), JPEG (.jpg or .jpeg), JPEG 2000 (.jp2), PICT (.pct or .pict), PNG (.png), ou TIFF (.tif or .tiff).";
+AMDNote = "Une qualité maximale peut créer une image plus lourde que l'origniale. La valeur initiale ne change pas le poids pour les images de type JPEG en entrée.";
+AMDOptions = "Régler le niveau de compression avec le curseur. Une meilleure qualité engendre un plus gros fichier, et à l'opposé, une bonne compression permet de diminuer la taille de l'image (idéal pour internet).";
+AMDResult = "Images de type JPEG (.jpg)";
+AMDSummary = "Cette action compresse les images de type JPEG pour diminuer leurs poids.";
+AMDWebsite = "http://lisapple.free.fr/compressor/";
+
+/*  AMKeyword localized strings  */
+/*  e.g. "Filter" = "Filter";  */
+
+/*  AMWarning localized strings  */
+ApplyButton = "Ajouter";
+IgnoreButton = "Ne pas Ajouter";
+Message = "Cette action modifie les fichiers image qui lui sont transmis. Voulez-vous ajouter une action Copier des éléments du Finder afin de modifier les copies mais conserver les originaux ?";

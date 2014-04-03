@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<false/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>(* Primary Application used by this action goes here. *)</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryPhotos</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>compression</key>
+		<string>80</string>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDInput</key>
+		<string>Image files</string>
+		<key>AMDNote</key>
+		<string>Best quality may create a heavier picture than the original. Initial value do not change the size for JPEG image files in input..</string>
+		<key>AMDOptions</key>
+		<string>Set the compress level with the slider. Best quality means heavier file, and opposite, least quality means better compression, most weight save (ideal for web).</string>
+		<key>AMDResult</key>
+		<string>Image files</string>
+		<key>AMDSummary</key>
+		<string>This action compress JPEG pictures to save space.</string>
+		<key>AMDWebsite</key>
+		<string>lisapple.free.fr/compressor/</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>Icon.png</string>
+	<key>AMKeywords</key>
+	<array/>
+	<key>AMName</key>
+	<string>JPEG Compressor</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>public.jpeg</string>
+		</array>
+	</dict>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string>com.apple.Automator.CopyFiles</string>
+		<key>ApplyButton</key>
+		<string>Add</string>
+		<key>IgnoreButton</key>
+		<string>Don&apos;t Add</string>
+		<key>Level</key>
+		<integer>2</integer>
+		<key>Message</key>
+		<string>This action will change the image files passed into it.  Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>JPEG Compressor</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Copyright © 2009 Lis@cintosh, All Rights Reserved</string>
+	<key>CFBundleIconFile</key>
+	<string>Icon.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.lisacintosh.Automator.Compressor</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.5</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.5</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2009 Lis@cintosh, All Rights Reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>Compress</string>
+</dict>
+</plist>
